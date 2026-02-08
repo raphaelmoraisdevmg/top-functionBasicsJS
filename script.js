@@ -17,7 +17,7 @@ result=multiply(9,9);//45
 
 //solving requirement 3
 function capitalize(text){
-  let lowerText =text.lowerCase(); //transform the given text to lowercase 
+  let lowerText =text.toLowerCase(); //transform the given text to lowercase 
   //capitalizing the fisrt character of transformed text.
   return lowerText[0].toUpperCase() + lowerText 
 }
