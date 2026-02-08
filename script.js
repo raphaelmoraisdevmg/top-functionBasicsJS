@@ -28,3 +28,12 @@ text = capitalize("ABCD");
 console.log(text);//Abcd
  text = capitalize("aBcD");
 console.log(text);//Abcd
+//end of requirement number three
+
+//solving requirement 4
+function lastLetter(text){
+  return text[text.length-1];
+}
+//case test for requirement 4
+let char = lastLetter("abcd") //d
+console.log(char);
